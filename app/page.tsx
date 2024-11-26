@@ -1,4 +1,4 @@
-import { Check, X, ChevronDown, Shield, DollarSign, Workflow, Layers } from 'lucide-react'
+import { Check, X,  Shield, DollarSign, Workflow, Layers } from 'lucide-react'
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import {
@@ -11,13 +11,13 @@ import {
 export default function LandingPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-950 to-slate-900 text-white relative overflow-hidden">
-      {/* Decorative elements */}
+      
       <div className="absolute top-20 right-20 w-80 h-80 rounded-full bg-gradient-to-r from-yellow-300 to-yellow-500 blur-2xl animate-pulse" />
       <div className="absolute top-20 right-20 w-96 h-96 bg-yellow-500/20 rounded-full blur-3xl" />
       <div className="absolute top-40 left-0 w-1 h-1 bg-white rounded-full" />
       <div className="absolute bottom-40 right-20 w-2 h-2 bg-white rounded-full" />
       
-      {/* Header */}
+      
       <header className="relative z-10 border-b border-slate-800">
         <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
@@ -39,7 +39,7 @@ export default function LandingPage() {
         </nav>
       </header>
 
-      {/* Hero Section */}
+      
       <section className="relative z-10 container mx-auto px-4 py-24 md:py-32">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
@@ -60,7 +60,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Comparison Section */}
       <section className="relative z-10 bg-slate-900/50 py-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-12">
@@ -89,7 +88,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Features Section */}
       <section className="relative z-10 container mx-auto px-4 py-24">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           Our <span className="text-yellow-400">Features</span>
@@ -127,7 +125,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
       <section className="relative z-10 container mx-auto px-4 py-24">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           <span className="text-yellow-400">FAQs</span>
@@ -158,7 +155,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="relative z-10 border-t border-slate-800 py-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
