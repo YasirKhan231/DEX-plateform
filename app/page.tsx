@@ -53,7 +53,7 @@ export default function LandingPage() {
             <Button className="bg-yellow-400 text-black hover:bg-yellow-500">
               Connect Wallet
             </Button>
-            <Button variant="outline" className="border-yellow-400 text-yellow-400 hover:bg-yellow-400/10">
+            <Button variant="outline" className="border-yellow-400 text-yellow-400 hover:bg-yellow-400/10  hover:text-white">
               Trade Crypto
             </Button>
           </div>
